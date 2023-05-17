@@ -4,8 +4,7 @@
 }
 body {
     display: grid;
-    justify-content: center;
-    align-content: center;
+    place-items: center;
     background: #D5E1EF;
 }
 .QR_container {
