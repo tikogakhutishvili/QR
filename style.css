@@ -2,13 +2,11 @@
     padding: 0;
     margin: 0;
 }
-.main_container {
-    display: flex;
+body {
+    display: grid;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-   
+    align-content: center;
+    background: #D5E1EF;
 }
 .QR_container {
     width: 320px;
@@ -21,14 +19,11 @@
     border-radius: 20px;
     margin: 16px;
 }
-.QR {
+.QR > img {
     height: 288px;
     width: 288px;
-    background: #2C7DFA;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 16px;
 }
 .pebi {
     margin-top: 24px;
